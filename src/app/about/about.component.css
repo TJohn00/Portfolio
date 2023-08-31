@@ -1,0 +1,16 @@
+.about-container {
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 4rem auto; /* Center horizontally and add top margin to create space */
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .about-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
